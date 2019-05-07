@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inskin Media Studio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+        <style>
+        div#top {
+            width: 100%;
+            height: 250px;
+            top: 0px;
+            left: 0px;
+            position: absolute;
+        }
+
+        div#left {
+            left: 0px;
+            position: absolute;
+            height: 2390px;
+            top: 0px;
+            width: 472px;
+        }
+
+        body#ism_preview {
+            height: 100%;
+            overflow-x: hidden;
+            background: #000;
+        }
+
+        div#right {
+            right: 0px;
+            position: absolute;
+            top: 0px;
+            width: 472px;
+            height: 2390px;
+        }
+
+        div#siteImg {
+            left: calc(50% - 960px/2);
+            position: absolute;
+            top: 250px;
+        }
+
+        div#bottom {
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            top: 2240px;
+        }
+        </style>
+    </head>
+    <body id="ism_preview">
+    <div id="siteImg">
+        <img id="site" src="http://studio3.inskinmedia.com/images/previewDefault.jpg">
+    </div>
+        <div id="top">
+            <iframe id="top-frame" scrolling="no" src="top.html" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 100%;"></iframe>
+        </div>
+        <div id="left">
+            <iframe id="left-frame" scrolling="no" src="left.html" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 100%;"></iframe>
+        </div>
+        <div id="right">
+            <iframe id="right-frame" scrolling="no" src="right.html" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 100%;"></iframe>
+        </div>
+        <div id="bottom">
+            <iframe id="bottom-frame" scrolling="no" src="bottom.html" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 100%;"></iframe>
+        </div>
+    </body>
+</html>

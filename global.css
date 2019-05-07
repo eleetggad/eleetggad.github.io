@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background:black;
+}
+
+p{
+    margin: 0;
+}
+
+img, div{
+    position:absolute;
+}
+
+#side_box{
+    top:30px;
+}
+
+#side_logo{
+    top:7px;
+    left:12px;
+}
+#top_lightsS{
+    top:-60px;
+}
+#left_img2, #right_img2{
+    opacity:0;
+}

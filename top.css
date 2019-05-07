@@ -1,0 +1,152 @@
+#backgroundTop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#scrollTop {
+	position: absolute;
+	width: 960px;
+	height: 100%;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+#top_lightsL{
+    left:-500px;
+}
+#top_lightsR{
+    right:-500px;
+}
+#top_bg{
+    left:50%;
+	transform:translateX(-50%);
+}
+#top_copy{
+    top:50%;
+    left:50%;
+    margin-top:-20px;
+    margin-left:-470px;
+    opacity:0;
+}
+#top_legal{
+    right:3px;
+    bottom:3px;
+}
+
+#top_hulk{
+    left:-155px;
+}
+#top_cap{
+    left:-25px;
+}
+#top_ironman{
+    left:240px;
+}
+#top_spidey{
+    left:390px;
+}
+#top_logo{
+    top: 40px;
+    left: 155px;
+}
+#top_blackFade{
+    bottom:0;
+}
+#top_fadeBig{
+    opacity:0;
+}
+/* VIDEO ----------------------------*/
+#video-wrapper {
+    position: absolute;
+    width: 367px;
+    height: 206px;
+    top:-228px;/* 22 */
+    right:-80px;
+    z-index: 100;
+    overflow: hidden;
+}
+#video1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#video-controls {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0.7;
+}
+#vid-play-catcher {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#vid-play-button {
+    position: absolute;
+    right: 35px;
+    width: 17px;
+    height: 19px;
+    background-image: url("https://cdn.inskinad.com/CreativeAssets/VideoIcons/playpause.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    bottom: 8px;
+    visibility: hidden;
+}
+#vid-play-button.pause {
+    background-position: -19px 0;
+}
+#vid-mute-button {
+    position: absolute;
+    right: 5px;
+    width: 23px;
+    height: 19px;
+    background-image: url("https://cdn.inskinad.com/CreativeAssets/VideoIcons/mute.png");
+    background-position: -23px 0;
+    background-repeat: no-repeat;
+    bottom: 7px;
+    visibility: hidden;
+}
+#vid-mute-button.mute {
+    background-position: 0 0;
+}
+#vid-progress-bar {
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    visibility: hidden;
+}
+#poster {
+    position: absolute;
+}
+#big-play-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#big-play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+}
+#big-play-pulse {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -75px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    border-radius: 1000px;
+    opacity: 0;
+}

@@ -1,0 +1,38 @@
+#backgroundRight {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#scrollRight {
+	position: absolute;
+	width: 130px;
+	height: 500px;
+}
+#top_lightsR{
+    top:-250px;
+}
+
+#side_box{
+    left:8px;
+}
+
+#right_img1{
+    top:95px;
+}
+#right_img2{
+    top:75px;
+}
+#hideMe{
+    width:100%;
+    height:100%;
+    opacity:0;
+}
+#clickCatcher{
+    width: 82px;
+    height: 55px;
+    left: 24px;
+    top: 157px;
+    opacity:0;
+    visibility:hidden;
+}
